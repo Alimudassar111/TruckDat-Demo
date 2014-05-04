@@ -1,0 +1,8 @@
+<tr ng-repeat="contact in contacts">
+          <td>{{ contact.name }}</td>
+          <td>{{ contact.description }}</td>
+          <td>{{ contact.pickuplocation }}</td>
+          <td>{{ contact.dropofflocation}}</td>
+          <td>{{ contact.time}}</td>
+          <td>{{ contact.date}}</td>
+        </tr>
